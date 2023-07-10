@@ -6,3 +6,6 @@ font-family:jos;
     font-family:"jost" ;
     src: url(Jost-Italic-VariableFont_wght.ttf);
 }
+.img{ display: flex;
+      justify-content: left;
+    }
