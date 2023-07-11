@@ -17,7 +17,8 @@ font-family:jost;
 .container {
     margin: 0%;
     display:center;
-    background: position 227px;
+    justify-content: space-around;
+    background:227px;
     size: 227px;
     border-radius: 40%;
 
@@ -25,19 +26,25 @@ font-family:jost;
   
   .text {
     display: inline-block;
-    text-align: left;
-    margin-left: 20px;
+    text-align:center;
+    margin-left: 20px;}
 
-  }
+    .text p{
+     display:flex;
+    justify-content: center;
+    font-size: 30px;
+    color:#ff7f99;
+}
+
+
   
   .button {
     display: block;
     margin:0%;
-    padding: 10px 20px;
     background-color:chocolate;
     color:black;
     border: none;
-    border-radius: 30%;
+    border-radius: 20%;
     cursor: pointer;
     font-size: 16px;
   }
