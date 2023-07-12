@@ -39,14 +39,23 @@
     font-size: 30px;
     color:#ff7f99;
 }
+   .texte{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    color:black;
+   }
   .button {
     width:vw;
     height:6vh;
     display:flex;
-    justify-content: center;
-    display:inline-block;
-    align-items: center;
-    margin:0%;
+    justify-content:center;
+    display:inline-flex;
+    align-items:baseline;
+    float:right;
+    margin:0;
     background-color:rgb(231, 216, 15);
     color:black;
     border: none;
