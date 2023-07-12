@@ -16,8 +16,9 @@ font-family:jost;
 }
 .container {
     margin: 0%;
+    padding-right: 5%;
     display:center;
-    justify-content: space-around;
+    justify-content: space-between;
     background:227px;
     size: 227px;
     border-radius: 40%;
@@ -30,21 +31,25 @@ font-family:jost;
     margin-left: 20px;}
 
     .text p{
-     display:flex;
+    width:30vw;
+    display:flex;
     justify-content: center;
+    align-items:flex-start;
     font-size: 30px;
     color:#ff7f99;
 }
-
-
-  
   .button {
-    display: block;
+    width:vw;
+    height:6vh;
+    display:flex;
+    justify-content: center;
+    display:inline-block;
+    align-items: center;
     margin:0%;
-    background-color:chocolate;
+    background-color:rgb(231, 216, 15);
     color:black;
     border: none;
     border-radius: 20%;
     cursor: pointer;
-    font-size: 16px;
   }
+
