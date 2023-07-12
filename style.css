@@ -1,8 +1,42 @@
-*{margin:0%;
-padding: 0%;
-font-family:jos;
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: jos;
 }
+
 @font-face {
-    font-family:"jost" ;
+    font-family: "jost";
     src: url(Jost-Italic-VariableFont_wght.ttf);
+}
+
+
+
+.imageContainer {
+    display: flex;
+    justify-content:space-between;
+    padding                                                                                         : 5vw;
+    padding-left: 5vw;
+    background-color:#ff7f99;  }
+
+.titulo {
+ color:beige; 
+ display:flex;
+ justify-content: center;
+}
+.image {
+    height: 177px;
+    width: 177px;
+    border-radius: 260px;
+    border: 10px solid beige;   
+}   
+.logo{
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    border: 5px  
+        }
+.logoin{
+         display: flex;
+         justify-content: center;
+         cursor: pointer;
 }
