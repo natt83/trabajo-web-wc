@@ -18,8 +18,8 @@
 .container {
     margin: 0%;
     padding-right: 5%;
-    display:center;
-    justify-content: space-between;
+    display:flex;
+    align-items: centergi;
     background:227px;
     size: 227px;
     border-radius: 40%;
@@ -31,7 +31,7 @@
     text-align:center;
     margin-left: 20px;}
 
-    .text p{
+    .texto{
     width:30vw;
     display:flex;
     justify-content: center;
